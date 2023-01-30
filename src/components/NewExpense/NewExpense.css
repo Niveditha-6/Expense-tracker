@@ -1,0 +1,53 @@
+.formContainer {
+  background-color: purple;
+  margin: 10px 20px;
+  padding: 20px 30px;
+  border: 3px solid greenyellow;
+}
+
+label {
+  color: greenyellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 6px;
+  border: 3px solid greenyellow;
+}
+
+.newExpensetitle,
+.newExpenseamount,
+.newExpensedate {
+  display: flex;
+  flex-direction: column;
+}
+
+.newExpenseGridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 025px;
+}
+
+.addExpenseButton {
+ 
+  background-color: greenyellow;
+  color: purple;
+  height: 40px;
+  border-radius: 15px;
+  border: 3px solid grey;
+  font-weight: bolder;
+}
+
+.addExpenseButton:hover {
+  height: 50px;
+  background-color: grey;
+  color: white;
+  border: 3px solid greenyellow;
+}
